@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    color: #ffff;
+    background-color:rgb(14, 22, 43);
+}
+body{
+    color: inherit;
+}
+.container{
+    display:grid; 
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.max-width{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.padding20{
+    padding: 20px 32px;
+}
+.borda{
+    border: 1px solid white;
+    border-inline: none;
+}
+main{
+    margin: 30px 80px;
+}
+
