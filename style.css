@@ -10,34 +10,33 @@
 body{
     color: inherit;
 }
-.container{
-    display:grid; 
-    grid-auto-flow: column;
-    justify-content: space-between;
-}
-.flex{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.max-width{
-    max-width: 1500px;
-    width: 100%;
-    margin: 0 auto;
-
-}
 a{
     text-decoration: none;
     color: inherit;
 }
-.padding20{
-    padding: 20px 32px;
-}
-.borda{
-    border: 1px solid white;
-    border-inline: none;
-}
-main{
-    margin: 30px 80px;
-}
 
+/* utilitarios */
+.grid{
+    display: grid;
+}
+.grid-coluna{
+    grid-auto-flow: column;
+}
+#primeiro,#segundo{
+    padding-block: 12px;
+    justify-content: space-between;
+}
+#segundo{
+    border-block:1px solid #172133 ;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding-block: 20px ;
+}
